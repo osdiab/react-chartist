@@ -2,9 +2,6 @@ import React, { Component, cloneElement, Children } from 'react';
 import PropTypes from 'prop-types'
 
 class ChartistGraph extends Component {
-
-  displayName: 'ChartistGraph'
-
   componentWillReceiveProps(newProps) {
     this.updateChart(newProps);
   }
